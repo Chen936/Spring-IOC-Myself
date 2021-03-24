@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <component-scan base-package="main.com.chen.main.Service"></component-scan>
+<!--扫描注解注入的bean-->
+</beans>

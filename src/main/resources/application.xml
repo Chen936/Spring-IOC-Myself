@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean id="HelloService" class="main.com.chen.main.Service.ServiceImpl.HelloServiceImpl" scope="prototype">
+        <property name="text" value="Hello World"></property>
+    </bean>
+
+    <bean id="WrapService" class="main.com.chen.main.Service.ServiceImpl.WrapServiceImpl">
+        <property name="helloService" ref="HelloService"></property>
+    </bean>
+
+</beans>
